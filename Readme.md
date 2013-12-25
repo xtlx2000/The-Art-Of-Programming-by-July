@@ -27,7 +27,7 @@ The-Art-Of-Programming-By-July
  * 自己主导续写新的章节，如第三十八章；
  * 任何你想做的事情
  
- 
+ 有其它的问题，咱们可以讨论：<https://github.com/julycoding/The-Art-Of-Programming-by-July/issues?state=open>。
 
 ## Contribution List
  * [July](https://github.com/julycoding)
@@ -44,6 +44,7 @@ The-Art-Of-Programming-By-July
  * [denganliang](https://github.com/denganliang)
  * [Benjamin-T](https://github.com/Benjamin-T)
  * [daiyl0320](https://github.com/daiyl0320)
+ * [xtlx2000](https://github.com/xtlx2000)
 
 
 为示鼓励，所有贡献了本github的朋友，可以随时向July索取他博客内所有博文集锦的最新CHM文件，或任何一个系列的最新PDF或WORD，thanks各位。
