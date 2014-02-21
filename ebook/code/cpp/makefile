@@ -1,12 +1,15 @@
 CC = g++
 CPPFLAGS = -Wall
 
-chapter01:  chapter01.cpp
-	$(CC) $(CPPFLAGS) chapter01.cpp -o chapter01
+FILE_SUFFIX = cpp
 
-chapter06:  chapter06.cpp
-	$(CC) $(CPPFLAGS) chapter06.cpp -o chapter06
+SRCS := $(wildcard *.$(FILE_SUFFIX))
+EXES := $(patsubst %.$(FILE_SUFFIX),%,$(SRCS))
+
+all:$(EXES)
+
+$(EXES): % : %.$(FILE_SUFFIX)
+	$(CC) $(CPPFLAGS) $< -o $@
 
 clean:
-	rm chapter01 
-	rm chapter06
+	rm -rf $(EXES)

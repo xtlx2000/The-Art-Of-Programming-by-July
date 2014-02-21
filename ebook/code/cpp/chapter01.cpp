@@ -6,6 +6,7 @@ using namespace std;
 void leftShiftOne(string &str) 
 {
     int n = str.length();
+    if (n < 2) return; // args check
     char t = str[0];  //保存第一个字符
     for (int i = 1; i < n; ++i) 
     {
@@ -71,7 +72,7 @@ void rotate_3(string &str, int m)
     int n = str.length();
 
     // 处理m大于n
-    if (m % n == 0)
+    if (m > n)
         return;
 
     // 循环直至p2到达字符串末尾
